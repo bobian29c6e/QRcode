@@ -9,31 +9,8 @@ const qrcodeWidth = 500 / rate;
 Page({
 // 轮播图
     data: {
-        text:'',
         QRCode: '',
         code_w: qrcodeWidth,
-        navTab: ["01", "02", "03", "04"],
-        currentNavtab: "0",
-        imgUrls: [
-            '/image/sese (1).jpg',
-            '/image/sese (2).jpg',
-            '/image/sese (3).jpg',
-            '/image/sese (4).jpg',
-            '/image/sese (5).jpg',
-            '/image/sese (6).jpg',
-            '/image/sese (7).jpg',
-            '/image/sese (8).jpg',
-            '/image/sese (9).jpg',
-            '/image/sese (10).jpg',
-            '/image/sese (11).jpg',
-            '/image/sese (12).jpg',
-            '/image/sese (13).jpg',
-
-        ],
-        indicatorDots: true,
-        autoplay: true,
-        interval: 3000,
-        duration: 1000,
     },
 
     onLoad: function () {
