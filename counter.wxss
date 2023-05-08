@@ -1,0 +1,68 @@
+.activity {
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.slide-image {
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.input-group {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+/* 边框 */
+border: 1px solid #ccc;
+border-radius: 5px;
+/* 阴影 */
+box-shadow: 0 0 5px #ccc;
+/* 内边距 */
+padding: 10px;
+/* 字体大小 */
+font-size: 20px;
+/* 居中 */
+text-align: center;
+}
+
+.btn{
+width: 100%;
+height: 100%;
+margin-top: 30px;
+/* 粉红色背景 */
+background-color: #ff00ff;
+/* 字体颜色 */
+color: #fff;
+/* 字体大小 */
+font-size: 20px;
+/* 边框 */
+border: 1px solid #ccc;
+border-radius: 5px;
+/* 阴影 */
+box-shadow: 0 0 5px #ccc;
+/* 内边距 */
+padding: 10px;
+/* 居中 */
+text-align: center;
+}
+
+.button-wrapper{
+    margin-top: 30rpx;
+}
+
+.canvas{
+    margin: 200rpx auto;
+}
+
+.tip{
+    text-align: center;
+}

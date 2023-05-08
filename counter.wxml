@@ -1,0 +1,22 @@
+<!-- 插入大imput输入框 -->
+<view class="input-group">
+<input class="input" placeholder="请输入手机号码" bindinput="inputChange" data-name="phone" maxlength="11" />
+</view>
+<!-- 插入轮播图，图片铺满屏幕 -->
+<swiper class="activity" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<block wx:for="{{imgUrls}}">
+    <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%" height="100%"/>
+    </swiper-item>
+</block>
+</swiper>
+
+<!-- button -->
+<button class="btn" bindtap="btnClick">截图选老婆</button>
+
+<!-- 生成二维码 -->
+<view class='button-wrapper'>
+    <button class='button' bindtap='tapHandler'>生成二维码</button>
+</view>
+<canvas class='canvas' style="width:{{code_w}}px; height:{{code_w}}px;" canvas-id='canvas' bindlongtap='save'></canvas>
+<view class='tip'>保存</view>
